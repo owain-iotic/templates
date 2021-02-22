@@ -1,26 +1,26 @@
 {
     "version": "alpha-0.1",
-    "userdid": "did:iotics:iotKvkU1SWaLZAxS1N2qFXi75uZDhwC9xxxj",
-    "node": "node01.connect.space.iotics.com",
-    "clientappid": "owain-test",
-    "clientref": "owaintest",
-    "latitude": 51.648919,
-    "longitude": -0.438257,
-    "name": "CarParks_42",
-    "number": 42,
+    "userdid": "${userdid}",
+    "node": "${node}",
+    "clientappid": "logstash",
+    "clientref": "logstash",
+    "latitude": "${lat}",
+    "longitude": "${lon}",
+    "name": "${name}",
+    "number": 0,
     "tags": [
         "cat_transport",
         "tfl-carparks"
     ],
     "comments": [
         {
-            "value": "Croxley Stn (LUL)",
+            "value": "${name}",
             "lang": "en"
         }
     ],
     "labels": [
         {
-            "value": "Croxley Stn (LUL)",
+            "value": "${name}",
             "lang": "en"
         }
     ],
@@ -68,24 +68,28 @@
     ],
     "pointdata": [
         {
-            "label": "pay_count",
-            "value": 93
-        },
-        {
-            "label": "pay_free",
-            "value": 47
-        },
-        {
-            "label": "pay_occupied",
-            "value": 46
-        },
-        {
-            "label": "disabled_count",
-            "value": 3
+            "label": "disabled_free",
+            "value": "${disabled_free}"
         },
         {
             "label": "disabled_occupied",
-            "value": 1
+            "value": "${disabled_occupied}"
+        },
+        {
+            "label": "disabled_count",
+            "value": "${disabled_count}"
+        },
+        {
+            "label": "pay_free",
+            "value": "${pay_free}"
+        },
+        {
+            "label": "pay_occupied",
+            "value": "${pay_occupied}"
+        },
+        {
+            "label": "pay_count",
+            "value": "${pay_count}"
         }
     ]
 }
