@@ -4,8 +4,8 @@
     "node": "${node}",
     "clientappid": "logstash",
     "clientref": "logstash",
-    "latitude": "${lat}",
-    "longitude": "${lon}",
+    "latitude": ${lat},
+    "longitude": ${lon},
     "name": "${name}",
     "number": 0,
     "tags": [
