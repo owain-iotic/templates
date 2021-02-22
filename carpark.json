@@ -4,9 +4,9 @@
     "node": "${node}",
     "clientappid": "tflcarparks",
     "clientref": "tflcarparks",
-    "latitude": "${data.lat}",
-    "longitude": "${data.lon}",
-    "name": "${data.name}",
+    "latitude": "${lat}",
+    "longitude": "${lon}",
+    "name": "${name}",
     "number": 0,
     "tags": [
         "cat_transport",
@@ -90,27 +90,27 @@
             "pointvalues": [
                 {
                     "label": "disabled_free",
-                    "value": "${data.disabled_free}"
+                    "value": "${disabled_free}"
                 },
                 {
                     "label": "disabled_occupied",
-                    "value": "${data.disabled_occupied}"
+                    "value": "${disabled_occupied}"
                 },
                 {
                     "label": "disabled_count",
-                    "value": "${data.disabled_count}"
+                    "value": "${disabled_count}"
                 },
                 {
                     "label": "pay_free",
-                    "value": "${data.pay_free}"
+                    "value": "${pay_free}"
                 },
                 {
                     "label": "pay_occupied",
-                    "value": "${data.pay_occupied}"
+                    "value": "${pay_occupied}"
                 },
                 {
                     "label": "pay_count",
-                    "value": "${data.pay_count}"
+                    "value": "${pay_count}"
                 }
             ]
         }
