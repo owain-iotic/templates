@@ -6,7 +6,7 @@
     "clientref": "logstash",
     "latitude": ${lat},
     "longitude": ${lon},
-    "name": "${twinname}",
+    "name": "${id}",
     "number": 0,
     "tags": [
         "cat_transport",
