@@ -26,6 +26,7 @@
     ],
     "points": [
         {
+            "ID": "${id}", 
             "pointmeta": [
                 {
                     "label": "pay_count",
